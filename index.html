@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>todos</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="app.js"></script>
+    </head>
+    <body>
+        <section class="todoapp">
+            <header class="header">
+                <h1 class="todos">todos</h1>
+               
+                <div class="new">
+                    <input onclick="new()" class="new-todo" placeholder="What needs to be done?">
+                </div>
+            </header>
+            
+            <div class="footer">
+            <div class="underlined"><img src="./img/yes.png">vrefrefr</div>
+            <div class="underlined"><img src="./img/yes.png">vrfvsdcferv</div>
+            <div class="underlined"><img src="./img/yes.png">cdrvrevr</div>
+                <!-- This should be `0 items left` by default -->
+                <span class="todo-count"><strong>3</strong> item left</span>
+                <!-- Remove this if you don't implement routing -->
+                <ul class="filters">
+                    <li>
+                        <a class="selected" href="#/">All</a>
+                    </li>
+                    <li>
+                        <a href="#/active">Active</a>
+                    </li>
+                    <li>
+                        <a href="#/completed">Completed</a>
+                    </li>
+                    <!-- Hidden if no completed items are left ↓ -->
+                    <li><button class="clear-completed" >Clear completed </button></li>
+                </ul>
+                
+            </div>
+        </section>
+        
+    </body>
+</html>    
